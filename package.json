@@ -1,0 +1,33 @@
+{
+  "name": "vk-bot",
+  "version": "1.0.0",
+  "description": "Bot for the trello.com website. Knows how to create boards, cards, lists and more. Written on node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "refreak",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-vk-bot-api": "^3.3.7",
+    "trello": "^0.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refreakk/BotTrello.git"
+  },
+  "keywords": [
+    "trello",
+    "bot",
+    "vkbot",
+    "vk"
+  ],
+  "bugs": {
+    "url": "https://github.com/refreakk/BotTrello/issues"
+  },
+  "homepage": "https://github.com/refreakk/BotTrello#readme"
+}
